@@ -35,7 +35,7 @@
     text-shadow:2px 2px #333;
   }
 
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 800px) {
   .bgimage p1 {display: none;}}
 
   /* Paragraph text */
@@ -55,21 +55,25 @@ p3 {
   font-family: 'Roboto', sans-serif;
 }
 
-
 /* Hero banner text on mobile */
 @media only screen and (max-width: 600px)   {
   #heading {
-    text-align:center;
-    padding-left: 8%;
-    padding-right: 8%;
+    text-align:center !important;
+    padding-left: 8% !important;
+    padding-right: 8% !important;
   }}
+
+  @media only screen and (max-width: 900px)   {
+    #heading {
+      padding-left: 5%;
+    }}
   
 /* Hero banner mockup spacing */
   #mockup {
     padding-left: 10%;
   }
 
-  @media only screen and (max-width: 560px) 
+  @media only screen and (max-width: 580px) 
   {#mockup {padding: 0px;
   }}
 
@@ -79,7 +83,7 @@ p3 {
     height: auto;
   }
 
-  @media only screen and (max-width: 560px)   {
+  @media only screen and (max-width: 580px)   {
     #heromockup {
       width: 60% !important;
       height: auto !important;
