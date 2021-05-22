@@ -12,10 +12,10 @@
   }
 
   /* Mobile logo */
-  @media only screen and (max-width: 760px)
+  @media only screen and (max-width: 768px)
   {#logo {display:block;}}
   
-  @media only screen and (min-width: 760px)
+  @media only screen and (min-width: 768px)
   {#logo{display:none;}}
   
   #logo {
@@ -73,7 +73,7 @@ p3 {
     padding-left: 10%;
   }
 
-  @media only screen and (max-width: 580px) 
+  @media only screen and (max-width: 575px) 
   {#mockup {padding: 0px;
   }}
 
@@ -83,7 +83,7 @@ p3 {
     height: auto;
   }
 
-  @media only screen and (max-width: 580px)   {
+  @media only screen and (max-width: 575px)   {
     #heromockup {
       width: 60% !important;
       height: auto !important;
@@ -114,10 +114,10 @@ p3 {
   z-index: 1;
 }
 
-@media only screen and (max-width: 760px)
+@media only screen and (max-width: 768px)
 {.hamburgerMenu {display:block;}}
 
-@media only screen and (min-width: 760px)
+@media only screen and (min-width: 768px)
 {.hamburgerMenu {display:none;}}
 
 .hamburgerMenu {
