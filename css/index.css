@@ -161,3 +161,15 @@ overflow:hidden;}
 #mobileNavItems a:hover {
   color: #72F4EB;
 }
+
+#appstore {
+width: 190px !important;
+height: 54px !important;}
+
+#googleplay {
+  width: 180px !important;
+  height: 54px !important;}
+  
+#navbackground {
+  background: black;
+}
