@@ -1,0 +1,159 @@
+/* Hero banner background image */
+.bgimage {
+  position: relative;
+    width:100vw;
+    height:100%;
+    background: url('../images/planthero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    background-color: #000000;
+  }
+
+  /* Mobile logo */
+  @media only screen and (max-width: 760px)
+  {#logo {display:block;}}
+  
+  @media only screen and (min-width: 760px)
+  {#logo{display:none;}}
+  
+  #logo {
+    position:absolute;
+    top: 35px;
+    left: 5%;
+    width: 200px;
+    height: auto;
+  overflow:hidden;}
+
+  /* Hero banner heading */
+  .bgimage h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color:white;
+    text-shadow:2px 2px #333;
+  }
+
+  @media only screen and (max-width: 760px) {
+  .bgimage p1 {display: none;}}
+
+  /* Paragraph text */
+  p1 {font-family: 'roboto', sans-serif;
+  color: white;
+font-size: 20px;}
+
+p2 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+p3 {
+  font-size: 24px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Hero banner text on mobile */
+@media only screen and (max-width: 600px)   {
+  #heading {
+    text-align:center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }}
+  
+/* Hero banner mockup spacing */
+  #mockup {
+    padding-left: 10%;
+  }
+
+  @media only screen and (max-width: 560px) 
+  {#mockup {padding: 0px;
+  }}
+
+  /* Hero banner mockup size */
+  #heromockup {
+    width: 300px;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 560px)   {
+    #heromockup {
+      width: 60% !important;
+      height: auto !important;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;}}
+
+/* Desktop navigation */
+  .navbar {
+    margin-left: 5%;
+  margin-right: 5%;}
+  
+.navigationItem {display: none;}
+
+.mobileNav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: black;
+  padding: 0px;
+  width: 100%;
+  height: 0vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s ease;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 760px)
+{.hamburgerMenu {display:block;}}
+
+@media only screen and (min-width: 760px)
+{.hamburgerMenu {display:none;}}
+
+.hamburgerMenu {
+  position:absolute;
+  top: 35px;
+  right: 5%;
+  z-index: 2 !important;
+overflow:hidden;}
+
+.hamburger {
+  width: 7vw;
+  height: 5vw;
+  }
+  
+  .open 
+  {background: url(../images/Hamburger.png);
+    background-repeat: no-repeat;
+    background-size: 95% 95%;}
+
+    .closed
+    {background: url(../images/Close.png);
+      background-repeat: no-repeat;
+      background-size: 75% 100%;}
+
+
+.active {display: block;}
+
+#mobileNavItems {
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  color: white;
+  transition: all .5s ease;
+  text-align: center;
+}
+
+#mobileNavItems a {
+  color: white;
+}
+
+#mobileNavItems a:hover {
+  color: #72F4EB;
+}
