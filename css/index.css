@@ -344,8 +344,7 @@ background: #527AE2}
 
   #body {
     background: url("../images/leaf.png");
-background-position: bottom left;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 580px auto;
+  background-size: 100vw auto;
   position: relative;}
