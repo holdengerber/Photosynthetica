@@ -352,13 +352,11 @@ background: #527AE2}
   position: absolute !important;
   bottom: 100px;
   right: 16px;
-  min-width: 400px;
 }
 
 .bottom-left {
   position: absolute !important;
   bottom: 100px;
-  min-width: 400px;
 }
 
 @media only screen and (max-width: 575px)  {
@@ -368,6 +366,7 @@ background: #527AE2}
     left: 50% !important;
     bottom: auto !important;
     transform: translate(-50%, -50%);
+    min-width: 400px;
   }}
 
 @media only screen and (max-width: 575px)  {
@@ -377,6 +376,7 @@ background: #527AE2}
   left: 50% !important;
   bottom: auto !important;
   transform: translate(-50%, -50%);
+  min-width: 400px;
 }}
 
 #leaf {opacity: .45;}
