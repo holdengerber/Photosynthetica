@@ -8,7 +8,8 @@
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
-    background-color: #000000;
+    background-color: #ffffff;
+    padding-bottom: 10%
   }
 
   /* Mobile logo */
@@ -31,8 +32,18 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 64px;
-    color:white;
-    text-shadow:2px 2px #333;
+    color:black;
+    text-shadow: 2px 2px #ffffff;;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #000000;
+  }
+
+  .howTo {
+    text-align: center;
   }
 
   @media only screen and (max-width: 800px) {
@@ -40,20 +51,34 @@
 
   /* Paragraph text */
   p1 {font-family: 'roboto', sans-serif;
-  color: white;
-font-size: 20px;}
+  color: #272727;
+font-size: 18px;
+font-weight: 100;}
 
 p2 {
   font-size: 20px;
-  color: white;
+  color: #022601;
   font-family: 'Roboto', sans-serif;
 }
 
 p3 {
   font-size: 24px;
-  color: white;
+  color: #272727;
   font-family: 'Roboto', sans-serif;
 }
+
+p4 {
+  font-size: 36px;
+  color: #272727;
+  font-family: 'Roboto', sans-serif;
+}
+
+#stepOne p3 {color: #267302;}
+
+@media only screen and (min-width: 575px)   {
+#firststep {
+ padding-left: 10%;
+}}
 
 /* Hero banner text on mobile */
 @media only screen and (max-width: 600px)   {
@@ -63,6 +88,16 @@ p3 {
     padding-right: 8% !important;
   }}
 
+  @media only screen and (min-width: 900px)  {
+  #heading {
+    margin-left: 12%;
+  }}
+
+  @media only screen and (min-width: 900px)  {
+    #mockup {
+      margin-left: 6%;
+    }}
+
   @media only screen and (max-width: 900px)   {
     #heading {
       padding-left: 5%;
@@ -71,6 +106,7 @@ p3 {
 /* Hero banner mockup spacing */
   #mockup {
     padding-left: 10%;
+    padding-bottom: 20px;
   }
 
   @media only screen and (max-width: 575px) 
@@ -93,8 +129,8 @@ p3 {
 
 /* Desktop navigation */
   .navbar {
-    margin-left: 5%;
-  margin-right: 5%;}
+    margin-left: 8%;
+  margin-right: 8%;}
   
 .navigationItem {display: none;}
 
@@ -102,7 +138,7 @@ p3 {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: black;
+  background-color: white;
   padding: 0px;
   width: 100%;
   height: 0vh;
@@ -135,12 +171,12 @@ overflow:hidden;}
   .open 
   {background: url(../images/Hamburger.png);
     background-repeat: no-repeat;
-    background-size: 95% 95%;}
+    background-size: 100% 100%;}
 
     .closed
     {background: url(../images/Close.png);
       background-repeat: no-repeat;
-      background-size: 75% 100%;}
+      background-size: 80% 105%;}
 
 
 .active {display: block;}
@@ -149,27 +185,69 @@ overflow:hidden;}
   display: flex;
   flex-direction: column;
   opacity: 0;
-  color: white;
+  color: black;
   transition: all .5s ease;
   text-align: center;
 }
 
 #mobileNavItems a {
-  color: white;
-}
-
-#mobileNavItems a:hover {
-  color: #72F4EB;
+  color: black;
 }
 
 #appstore {
-width: 190px !important;
-height: 54px !important;}
+width: 141px !important;
+height: 42px !important;
+margin-bottom: 3%;
+border-radius: 6px;}
+
+#appstore:hover {cursor: pointer;
+opacity: .8;}
 
 #googleplay {
-  width: 180px !important;
-  height: 54px !important;}
+  width: 140px !important;
+  height: 42px !important;
+margin-bottom: 3%;
+border-radius: 6px;}
+
+  #googleplay:hover {cursor: pointer;
+    opacity: .8;}
   
+
+    @media only screen and (min-width: 768px) {
 #navbackground {
-  background: black;
-}
+  background: rgba(255,255,255,1);
+}}
+
+.heroline {height: 2px;
+width: 200px;
+background: #527AE2}
+
+@media only screen and (max-width: 600px)  
+{.heroline {display: none !important;}}
+
+.nav-link p2:hover {color: #267302 !important;}
+
+@media only screen and (max-width: 560px) {
+.descriptionone {text-align: center;}}
+
+.descriptionone {padding-bottom: 5%;}
+
+@media only screen and (max-width: 600px) {
+.subheadone {text-align: center;}}
+
+@media only screen and (max-width: 600px) {
+  #searchplant{display: block;
+    margin-left: auto;
+    margin-right: auto;}}
+
+      .thinline {height: 2px;
+        width: 200px;
+        background: #527AE2;
+      margin-left: auto;
+    margin-right: auto;}
+
+    @media only screen and (min-width: 600px) {
+    .blankspace {height: 100px !important;}}
+
+    @media only screen and (max-width: 600px) {
+      .blankspace {height: 10px;}}
