@@ -252,16 +252,16 @@ background: #527AE2}
       margin-left: auto;
     margin-right: auto;}
 
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 575px) {
     .blankspace {height: 100px !important;}}
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 575px) {
       .blankspace {height: 10px;}}
 
-      @media only screen and (min-width: 600px) {
+      @media only screen and (min-width: 575px) {
         .blankspacesmall {height: 70px !important;}}
     
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 575px) {
           .blankspacesmall {height: 40px;}}
 
       #elementsofplant {
@@ -274,7 +274,7 @@ background: #527AE2}
     background-attachment: fixed;
     padding-bottom: 5%;
         height: 100%;
-        background: #f0f0f0;
+        background: #ebeee8;
         box-shadow: 
         inset 0px 11px 16px -10px rgba(0,0,0,0.3),
         inset 0px -11px 16px -10px rgba(0,0,0,0.3); 
@@ -314,7 +314,7 @@ background: #527AE2}
   .card-text {text-align: center !important;
     font-size: 18px !important;}
 
-    #footer {background: #034001;
+    #footer {background: #164414;
     height: 100%;
   text-align: center;}
 
@@ -342,9 +342,53 @@ background: #527AE2}
     opacity: 0.8;
   }
 
-  #body {
-    background: url("../images/leaf.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100vw auto;
-  position: relative;}
+  .leafThing{
+  position: relative;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.bottom-right {
+  position: absolute !important;
+  bottom: 100px;
+  right: 16px;
+  min-width: 400px;
+}
+
+.bottom-left {
+  position: absolute !important;
+  bottom: 100px;
+  min-width: 400px;
+}
+
+@media only screen and (max-width: 575px)  {
+  .bottom-left {
+    position: absolute !important;
+    top: 50%;
+    left: 50% !important;
+    bottom: auto !important;
+    transform: translate(-50%, -50%);
+  }}
+
+@media only screen and (max-width: 575px)  {
+.bottom-right {
+  position: absolute !important;
+  top: 50%;
+  left: 50% !important;
+  bottom: auto !important;
+  transform: translate(-50%, -50%);
+}}
+
+#leaf {opacity: .45;}
+
+@media only screen and (max-width: 650px)  {
+  #leaf {width: 250px !important;
+  height: auto;
+}}
+
+#leafreverse {opacity: .45;}
+
+@media only screen and (max-width: 650px)  {
+  #leafreverse {width: 250px !important;
+  height: auto;
+}
