@@ -274,7 +274,7 @@ background: #527AE2}
     background-attachment: fixed;
     padding-bottom: 5%;
         height: 100%;
-        background: #ebeee8;
+        background: #f0f0f0;
         box-shadow: 
         inset 0px 11px 16px -10px rgba(0,0,0,0.3),
         inset 0px -11px 16px -10px rgba(0,0,0,0.3); 
@@ -350,13 +350,12 @@ background: #527AE2}
 
 .bottom-right {
   position: absolute !important;
-  bottom: 100px;
-  right: 16px;
+  bottom: 150px;
 }
 
 .bottom-left {
   position: absolute !important;
-  bottom: 100px;
+  bottom: 150px;
 }
 
 @media only screen and (max-width: 575px)  {
@@ -379,7 +378,8 @@ background: #527AE2}
   min-width: 400px;
 }}
 
-#leaf {opacity: .45;}
+#leaf {opacity: .45;
+  margin-left: 5px;}
 
 @media only screen and (max-width: 650px)  {
   #leaf {width: 250px !important;
