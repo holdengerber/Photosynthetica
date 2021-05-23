@@ -9,7 +9,7 @@
     background-size:cover;
     background-attachment: fixed;
     background-color: #ffffff;
-    padding-bottom: 10%
+    padding-bottom: 5%
   }
 
   /* Mobile logo */
@@ -73,7 +73,8 @@ p4 {
   font-family: 'Roboto', sans-serif;
 }
 
-#stepOne p3 {color: #267302;}
+.row p3 {color: #267302;
+font-weight: bold;}
 
 @media only screen and (min-width: 575px)   {
 #firststep {
@@ -106,7 +107,6 @@ p4 {
 /* Hero banner mockup spacing */
   #mockup {
     padding-left: 10%;
-    padding-bottom: 20px;
   }
 
   @media only screen and (max-width: 575px) 
@@ -117,6 +117,8 @@ p4 {
   #heromockup {
     width: 300px;
     height: auto;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.25);
+    border-radius: 50px;
   }
 
   @media only screen and (max-width: 575px)   {
@@ -215,7 +217,7 @@ border-radius: 6px;}
 
     @media only screen and (min-width: 768px) {
 #navbackground {
-  background: rgba(255,255,255,1);
+  background: #ffffff;
 }}
 
 .heroline {height: 2px;
@@ -240,6 +242,10 @@ background: #527AE2}
     margin-left: auto;
     margin-right: auto;}}
 
+    #searchplant{
+      box-shadow: 10px 10px 20px rgba(0,0,0,0.25);
+    border-radius: 35px;}
+
       .thinline {height: 2px;
         width: 200px;
         background: #527AE2;
@@ -251,3 +257,95 @@ background: #527AE2}
 
     @media only screen and (max-width: 600px) {
       .blankspace {height: 10px;}}
+
+      @media only screen and (min-width: 600px) {
+        .blankspacesmall {height: 70px !important;}}
+    
+        @media only screen and (max-width: 600px) {
+          .blankspacesmall {height: 40px;}}
+
+      #elementsofplant {
+        position: relative;
+    width:100vw;
+    height:500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding-bottom: 5%;
+        height: 100%;
+        background: #f0f0f0;
+        box-shadow: 
+        inset 0px 11px 16px -10px rgba(0,0,0,0.3),
+        inset 0px -11px 16px -10px rgba(0,0,0,0.3); 
+     }
+  
+     @media only screen and (max-width: 600px) {
+     .herosubhead {
+       display: none;
+     }}
+
+ .element {
+      box-shadow: 10px 10px 20px rgba(0,0,0,0.08);
+      border-radius: 100px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 35px solid white;
+     }
+
+   .card-deck {margin-left: 8% !important;
+  margin-right: 8% !important;}
+
+  .card {
+    background: none !important;
+    border: 0px !important;
+  }
+
+  .card-footer {
+    background: none !important;
+    border: 0px !important;
+  }
+
+  .card-title {text-align: center !important;
+  font-size: 24px !important;}
+
+  .card-text {text-align: center !important;
+    font-size: 18px !important;}
+
+    #footer {background: #034001;
+    height: 100%;
+  text-align: center;}
+
+  #footer p2 {color: white;}
+
+  #footer a {font-size: 50px !important;}
+
+  #footer a:hover {color: white;
+  text-decoration: none;}
+
+  .fa {
+    padding: 20px;
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  #firsticon {padding-left: none !important;
+  padding-right: 20px;}
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.8;
+  }
+
+  #body {
+    background: url("../images/leaf.png");
+background-position: bottom left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 40% auto;
+  position: relative;}
