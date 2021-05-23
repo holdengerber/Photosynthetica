@@ -36,7 +36,7 @@
     text-shadow: 2px 2px #ffffff;;
   }
 
-  h2 {
+  .howTo h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     color: #000000;
@@ -73,7 +73,7 @@ p4 {
   font-family: 'Roboto', sans-serif;
 }
 
-.row p3 {color: #267302;
+.row p3 {color: #000000;
 font-weight: bold;}
 
 @media only screen and (min-width: 575px)   {
@@ -314,7 +314,7 @@ background: #527AE2}
   .card-text {text-align: center !important;
     font-size: 18px !important;}
 
-    #footer {background: #164414;
+    #footer {background: #55A603;
     height: 100%;
   text-align: center;}
 
@@ -378,15 +378,15 @@ background: #527AE2}
   min-width: 400px;
 }}
 
-#leaf {opacity: .45;
-  margin-left: 5px;}
+#leaf {opacity: .5;
+  margin-left: 10px;}
 
 @media only screen and (max-width: 650px)  {
   #leaf {width: 250px !important;
   height: auto;
 }}
 
-#leafreverse {opacity: .45;}
+#leafreverse {opacity: .5;}
 
 @media only screen and (max-width: 650px)  {
   #leafreverse {width: 250px !important;
