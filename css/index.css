@@ -73,8 +73,9 @@ p4 {
   font-family: 'Roboto', sans-serif;
 }
 
-.row p3 {color: #034001;
-font-weight: bold;}
+.row p3 {color: #55A603;
+font-weight: bold;
+text-shadow: 1px 1px  5px #ffffff;}
 
 @media only screen and (min-width: 575px)   {
 #firststep {
@@ -222,7 +223,7 @@ border-radius: 6px;}
 
 .heroline {height: 2px;
 width: 200px;
-background: #034001;
+background: #000000;
 text-shadow: 2px 2px #ffffff;}
 
 @media only screen and (max-width: 600px)  
@@ -380,14 +381,15 @@ text-shadow: 2px 2px #ffffff;}
 }}
 
 #leaf {opacity: .5;
-  margin-left: 10px;}
+  margin-left: 30px;}
 
 @media only screen and (max-width: 650px)  {
   #leaf {width: 250px !important;
   height: auto;
 }}
 
-#leafreverse {opacity: .5;}
+#leafreverse {opacity: .5;
+margin-left: 15px;}
 
 @media only screen and (max-width: 650px)  {
   #leafreverse {width: 250px !important;
