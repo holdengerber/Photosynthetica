@@ -38,7 +38,7 @@
 
   .howTo h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     color: #000000;
   }
 
@@ -73,7 +73,7 @@ p4 {
   font-family: 'Roboto', sans-serif;
 }
 
-.row p3 {color: #000000;
+.row p3 {color: #034001;
 font-weight: bold;}
 
 @media only screen and (min-width: 575px)   {
