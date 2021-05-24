@@ -32,8 +32,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 64px;
-    color:black;
-    text-shadow: 2px 2px #ffffff;;
+    color:#034001;
+    text-shadow: 2px 2px #ffffff;
   }
 
   .howTo h2 {
@@ -222,7 +222,8 @@ border-radius: 6px;}
 
 .heroline {height: 2px;
 width: 200px;
-background: #527AE2}
+background: #034001;
+text-shadow: 2px 2px #ffffff;}
 
 @media only screen and (max-width: 600px)  
 {.heroline {display: none !important;}}
@@ -314,7 +315,7 @@ background: #527AE2}
   .card-text {text-align: center !important;
     font-size: 18px !important;}
 
-    #footer {background: #55A603;
+    #footer {background: #034001;
     height: 100%;
   text-align: center;}
 
@@ -350,12 +351,12 @@ background: #527AE2}
 
 .bottom-right {
   position: absolute !important;
-  bottom: 150px;
+  bottom: 120px;
 }
 
 .bottom-left {
   position: absolute !important;
-  bottom: 150px;
+  bottom: 120px;
 }
 
 @media only screen and (max-width: 575px)  {
