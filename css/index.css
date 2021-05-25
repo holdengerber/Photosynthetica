@@ -53,24 +53,27 @@
   p1 {font-family: 'roboto', sans-serif;
   color: #272727;
 font-size: 18px;
-font-weight: 100;}
+font-weight: 300;}
 
 p2 {
   font-size: 20px;
   color: #022601;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 p3 {
   font-size: 24px;
   color: #272727;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 p4 {
   font-size: 36px;
   color: #272727;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .row p3 {color: #55A603;
@@ -314,13 +317,17 @@ text-shadow: 2px 2px #ffffff;}
   font-size: 24px !important;}
 
   .card-text {text-align: center !important;
-    font-size: 18px !important;}
+    font-size: 18px !important;
+    font-weight: 300;
+  text-shadow: 2px 2px  5px #ffffff;}
+    
 
     #footer {background: #034001;
     height: 100%;
   text-align: center;}
 
-  #footer p2 {color: white;}
+  #footer p2 {color: white;
+    font-weight: 300;}
 
   #footer a {font-size: 50px !important;}
 
@@ -396,5 +403,4 @@ text-shadow: 2px 2px #ffffff;}
 @media only screen and (max-width: 650px)  {
   #leafreverse {width: 250px !important;
   height: auto;
-}
-
+}}
