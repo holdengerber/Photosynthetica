@@ -125,6 +125,9 @@ text-shadow: 1px 1px  5px #ffffff;}
     border-radius: 50px;
   }
 
+    #heromockup:hover {transform:scale(1.02,1.02);
+    transition: 1s;}
+
   @media only screen and (max-width: 575px)   {
     #heromockup {
       width: 60% !important;
