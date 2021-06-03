@@ -137,11 +137,9 @@
         min-height: 100px;
         }
 
-      @media only screen and (max-width: 768px) {
         #navBackground {
           box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
           }
-        }
         
       .nav-link p2:hover {
         color: #267302 !important;
