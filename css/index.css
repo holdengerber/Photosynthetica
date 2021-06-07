@@ -1,568 +1,588 @@
 /* Text Styles */
-    .centeredText {
-      text-align: center;
-    }
+.centeredText {
+  text-align: center;
+}
 
-    h1 {
-      font-family: 'Roboto', sans-serif;
-      font-weight: bold;
-      font-size: 64px;
-    }
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+}
 
-    h2 {
-      font-family: 'Roboto', sans-serif;
-      font-size: 40px !important;
-    }
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px !important;
+}
 
-    h5 {
-      font-size: 24px !important;
-    }
+h5 {
+  font-size: 24px !important;
+}
 
-    p1 {
-      font-family: 'roboto', sans-serif;
-      font-size: 18px;
-      font-weight: 300;
-    }
+p1 {
+  font-family: 'roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
 
-    p2 {
-      font-size: 20px;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 300;
-    }
+p2 {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
 
-    p3 {
-      font-size: 24px;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 300;
-    }
+p3 {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
 
-    p4 {
-      font-size: 36px;
-      color: #272727;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 300;
-    }
+p4 {
+  font-size: 36px;
+  color: #272727;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
 
-    .greenOnWhite{color: #55A603;
-      font-weight: bold;
-      text-shadow: 1px 1px  5px #ffffff;
-    }
+.greenOnWhite{color: #55A603;
+  font-weight: bold;
+  text-shadow: 1px 1px  5px #ffffff;
+}
 
-      @media only screen and (max-width: 900px) {
-        .mobileDisappear {
-          display: none;
-          }
-        }
+  @media only screen and (max-width: 900px) {
+    .mobileDisappear {
+      display: none;
+      }
+    }
 
 /* Responsive Blank Spaces */
-      @media only screen and (min-width: 575px) {
-        .blankSpace {height: 100px !important;
-        }
-        }
+  @media only screen and (min-width: 575px) {
+    .blankSpace {height: 100px !important;
+    }
+    }
 
-      @media only screen and (max-width: 575px) {
-        .blankSpace {height: 10px;
-          }
-        }
-
-      @media only screen and (min-width: 575px) {
-        .blankSpaceSmall {height: 70px !important;
-          }
-        }
-      
-      @media only screen and (max-width: 575px) {
-          .blankSpaceSmall {height: 40px;
-            }
-          }
-
-      @media only screen and (max-width: 800px) {
-          .blankSpaceHorizontal {width: 00px !important;
-            }
-          }
-        
-      @media only screen and (min-width: 800px) {
-          .blankSpaceHorizontal {display: none;
-            }
-          }
-
-/* Hero banner background image */
-      #herobg {
-        position: relative;
-        width:100vw;
-        height:100%;
-        background: url('../images/planthero.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-        background-attachment: fixed;
-        background-color: #ffffff;
-        padding-bottom: 5%;
-      }
-
-/* Smaller Logo on Mobile */
-      #logo {
-        position:absolute;
-        top: 35px;
-        left: 5%;
-        width: 200px;
-        height: auto;
-        overflow:hidden;
-      }
-
-/* Display Smaller Logo at Breakpoint */
-      @media only screen and (max-width: 768px) {
-        #logo {
-          display:block;
-        }
-      }
-      
-      @media only screen and (min-width: 768px) {
-        #logo {
-          display:none;
-        }
-      }
-
-/* Desktop navigation */
-      .navbar {
-        margin-left: 8%;
-        margin-right: 8%;
-      }
-      
-      .navigationItem {
-        display: none;
-      }
-
-      #navBackground {
-        background: #ffffff;
-        min-height: 100px;
-        }
-
-      @media only screen and (max-width: 575px) {
-      #navBackground {
-          box-shadow: 0px 10px 20px rgba(0,0,0,0.05);
-          }
-        }
-        
-      .nav-link p2:hover {
-        color: #267302 !important;
-      }
-
-/* Mobile Navigation Dropdown */
-      .mobileNav {
-        position: fixed;
-        top: 0;
-        right: 0;
-        background-color: white;
-        padding: 0px;
-        width: 100%;
-        height: 0vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all .5s ease;
-        overflow: hidden;
-        z-index: 1;
-      }
-
-      #mobileNavItems {
-        display: flex;
-        flex-direction: column;
-        opacity: 0;
-        color: black;
-        transition: all .5s ease;
-        text-align: center;
-      }
-
-      #mobileNavItems a {
-        color: black;
-      }
-
-/* Mobile Hamburger Menu */
-      .hamburgerMenu {
-        position:absolute;
-        top: 35px;
-        right: 5%;
-        z-index: 2 !important;
-        overflow:hidden;
-      }
-      
-      .hamburger {
-        width: 7vw;
-        height: 5vw;
-      }
-
-      .open {
-        background: url(../images/Hamburger.png);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-      }
-      
-      .closed {
-        background: url(../images/Close.png);
-        background-repeat: no-repeat;
-        background-size: 80% 105%;
-      }
-      
-      .active {
-        display: block;
-      }
-
-/* Display Mobile Hamburger Menu at Breakpoint */
-      @media only screen and (max-width: 768px) {
-        .hamburgerMenu {
-          display:block;
-          }
-        }
-      
-      @media only screen and (min-width: 768px) {
-        .hamburgerMenu {
-          display:none;
-          }
-        }
-
-/* Hero Banner Heading */
-      #herobg h1 {
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-size: 64px;
-        color:#034001;
-        text-shadow: 2px 2px #ffffff;
-      }
-
-      #heroLine {height: 2px;
-        width: 200px;
-        background: #000000;
-        text-shadow: 2px 2px #ffffff;
-      }
-
-      @media only screen and (max-width: 575px) {
-        #heroLine {
-          display: none;
-        }
-      }
-
-/* Hero Banner Text Responsiveness */
-      @media only screen and (max-width: 575px) {
-        #headingContainer {
-          text-align:center !important;
-          padding-left: 8% !important;
-          padding-right: 8% !important;
-          margin-left: auto;
-          margin-right: auto;
-        }}
-      
-        @media only screen and (min-width: 900px) {
-        #headingContainer {
-          margin-left: 12%;
-        }}
-
-        @media only screen and (max-width: 900px) {
-          #headingContainer {
-            padding-left: 5%;
-          }}
-
-/* Hero Banner Divider Line Responsiveness */
-    @media only screen and (max-width: 600px) {
-      .heroLine {
-        margin-left: auto;
-        margin-right: auto;
+  @media only screen and (max-width: 575px) {
+    .blankSpace {height: 10px;
       }
     }
 
-/* Hero Banner Mockup Spacing */
-      #heroMockupContainer {
-        padding-left: 10%;
+  @media only screen and (min-width: 575px) {
+    .blankSpaceSmall {height: 70px !important;
       }
-
-      @media only screen and (max-width: 575px) {
-        #heroMockupContainer {
-          padding: 0px;
+    }
+  
+  @media only screen and (max-width: 575px) {
+      .blankSpaceSmall {height: 40px;
         }
-      }
-
-      @media only screen and (min-width: 900px) {
-        #heroMockupContainer {
-          margin-left: 6%;
-        }
-      }
-
-      @media only screen and (min-width: 900px) {
-        #heroMockup {
-          margin-left: 6%;
-        }}
-
-/* Hero Banner Mockup Image */
-        #heroMockup {
-          width: 300px;
-          height: auto;
-          box-shadow: 10px 10px 20px rgba(0,0,0,0.25);
-          border-radius: 50px;
-        }
-
-        #heroMockup:hover {
-          transform:scale(1.02,1.02);
-          transition: 1s;
-        }
-
-/* Hero Banner Mockup Image Responsiveness */
-      @media only screen and (max-width: 575px) {
-        #heroMockup {
-          width: 60% !important;
-          height: auto !important;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          }
-        }
-
-/* App Download Buttons */
-      #appstore {
-        width: 141px !important;
-        height: 42px !important;
-        margin-bottom: 3%;
-        border-radius: 6px;
-      }
-
-      #appstore:hover {
-        cursor: pointer;
-        opacity: .8;
-      }
-
-      #googleplay {
-        width: 140px !important;
-        height: 42px !important;
-        margin-bottom: 3%;
-        border-radius: 6px;
-      }
-
-      #googleplay:hover {
-        cursor: pointer;
-        opacity: .8;
-      }  
-
-/* First Body Section */
-      #bodyOne {
-        position: relative;
-        width:100vw;
-        height:500px;
-        padding-bottom: 5%;
-        height: 100%;
-        background: #f0f0f0;
-        box-shadow: 
-          inset 0px 11px 26px -10px rgba(0,0,0,0.3),
-          inset 0px -11px 26px -10px rgba(0,0,0,0.3); 
-      }
-
-/* Circular Cards */
-      .circularCard {
-        width: 150px;
-        height: 150px;
-        box-shadow: 10px 10px 20px rgba(0,0,0,0.08);
-        border-radius: 100px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        border: 35px solid white;
-      }
-
-      .card-deck {
-        margin-left: 8% !important;
-        margin-right: 8% !important;
-      }
-
-      .card {
-        background: none !important;
-        border: 0px !important;
-      }
-
-      .card-footer {
-        background: none !important;
-        border: 0px !important;
-      }
-
-/* "How it Works" Leaf Container */
-      .leafContainer {
-        position: relative;
-        color: white;
-        padding-bottom: 50px;
-      }
-
-      @media only screen and (max-width: 600px) {
-        .leafContainer {
-          text-align: center;
-        }
-      }
-
-      .leafContainerReverse {
-        position: relative;
-        color: white;
-        padding-bottom: 50px;
-      }
-
-      @media only screen and (max-width: 600px) {
-        .leafContainerReverse {
-          text-align: center;
-        }
-      }
-
-      @media only screen and (max-width: 800px) and (min-width: 575px) {
-        .leafContainerReverse {
-          margin-left: 50px;
-          padding-bottom: 0px !important;
-          margin-top: 75px;
-        }
-      }
-
-      @media only screen and (max-width: 800px) and (min-width: 575px)  {
-        .leafContainerReverse{
-          padding-bottom: 100px;
-          }
-        }
-
-/* "How it Works" Leaf Image */
-      .leaf {opacity: .8;
-        left: -100px !important;
-        z-index: 99 !important;
-        width: 300px; 
-        height: auto;}
-
-      @media only screen and (max-width: 650px)  {
-        .leaf {
-          width: 250px !important;
-          height: auto;
-        }
-      }
-
-      .leafreverse {
-        opacity: .8;
-        right: -100px !important;
-        z-index: 99 !important;
-        width: 300px; 
-        height: auto;
-      }
-
-      @media only screen and (max-width: 650px)  {
-        .leafreverse {
-          width: 250px !important;
-          height: auto;
-        }
-      }
-
-/* Text Over Leaf Positioning and Responsiveness */
-      .subheadingResponsive {padding-bottom: 5%;}
-
-      @media only screen and (max-width: 560px) {
-        .subheadingResponsive {
-          text-align: center;
-        }
-      }
-
-      .textOverlay {
-        position: absolute !important;
-        bottom: 120px;
-      }
-
-      @media only screen and (max-width: 575px)  {
-        .textOverlay {
-          position: absolute !important;
-          top: 50%;
-          left: 50% !important;
-          bottom: auto !important;
-          transform: translate(-50%, -50%);
-          min-width: 400px;
-        }
-      }
-
-      .textOverlayReverse {
-        position: absolute !important;
-        bottom: 120px;
-      }
-
-      @media only screen and (max-width: 575px)  {
-        .textOverlayReverse {
-          position: absolute !important;
-          top: 50%;
-          left: 50% !important;
-          bottom: auto !important;
-          transform: translate(-50%, -50%);
-          min-width: 400px;
-          }
-        }
-
-      @media only screen and (max-width: 800px) and (min-width: 575px)  {
-        .textOverlayReverse {
-          bottom: 0px !important;
-          }
-        }
-
-/* How it Works Mockup Positioning and Decoration */
-      @media only screen and (min-width: 575px)   {
-        #paddedMockup {
-          padding-left: 10%;
-        }
-      }  
-
-      @media only screen and (min-width: 700px) {
-        #mockupPaddingReverse {
-          margin-left: 16.67%;
-          }
-        }
-          
-      @media only screen and (max-width: 600px) {
-        .mockup{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            }
-          }
-        
-        .mockup{
-          box-shadow: 10px 10px 20px rgba(0,0,0,0.25);
-          border-radius: 35px;
-        }
-        
-        .mockup:hover {
-          transform:scale(1.02,1.02);
-          transition: 1s;
-        }
-
-/* Footer */
-      #footer {
-        background: #034001;
-        height: 100%;
-        text-align: center;
-      }
-        
-      #footer p2 {
-        color: white;
-        font-weight: 300;
       }
   
+      @media only screen and (min-width: 575px) {
+        .blankSpaceSmaller {height: 70px !important;
+          }
+        }
+      
+      @media only screen and (max-width: 575px) {
+          .blankSpaceSmaller {height: 40px;
+            }
+          }
+
+  @media only screen and (max-width: 800px) {
+      .blankSpaceHorizontal {width: 00px !important;
+        }
+      }
+    
+  @media only screen and (min-width: 800px) {
+      .blankSpaceHorizontal {display: none;
+        }
+      }
+
+/* Hero banner background image */
+  #herobg {
+    position: relative;
+    width:100vw;
+    height:100%;
+    background: url('../images/planthero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    background-color: #ffffff;
+    padding-bottom: 5%;
+  }
+
+/* Smaller Logo on Mobile */
+  #logo {
+    position:absolute;
+    top: 35px;
+    left: 5%;
+    width: 200px;
+    height: auto;
+    overflow:hidden;
+  }
+
+/* Display Smaller Logo at Breakpoint */
+  @media only screen and (max-width: 768px) {
+    #logo {
+      display:block;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    #logo {
+      display:none;
+    }
+  }
+
+/* Desktop navigation */
+  .navbar {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .navigationItem {
+    display: none;
+  }
+
+  #navBackground {
+    background: #ffffff;
+    min-height: 100px;
+    }
+
+  @media only screen and (max-width: 768px) {
+    #navBackground {
+      box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+      }
+    }
+    
+  .nav-link p2:hover {
+    color: #267302 !important;
+  }
+
+/* Mobile Navigation Dropdown */
+  .mobileNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 0px;
+    width: 100%;
+    height: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  #mobileNavItems {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    color: black;
+    transition: all .5s ease;
+    text-align: center;
+  }
+
+  #mobileNavItems a {
+    color: black;
+  }
+
+/* Mobile Hamburger Menu */
+  .hamburgerMenu {
+    position:absolute;
+    top: 35px;
+    right: 5%;
+    z-index: 2 !important;
+    overflow:hidden;
+  }
+  
+  .hamburger {
+    width: 7vw;
+    height: 5vw;
+  }
+
+  .open {
+    background: url(../images/Hamburger.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .closed {
+    background: url(../images/Close.png);
+    background-repeat: no-repeat;
+    background-size: 80% 105%;
+  }
+  
+  .active {
+    display: block;
+  }
+
+/* Display Mobile Hamburger Menu at Breakpoint */
+  @media only screen and (max-width: 768px) {
+    .hamburgerMenu {
+      display:block;
+      }
+    }
+  
+  @media only screen and (min-width: 768px) {
+    .hamburgerMenu {
+      display:none;
+      }
+    }
+
+/* Hero Banner Heading */
+  #herobg h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color:#034001;
+    text-shadow: 2px 2px #ffffff;
+  }
+
+  #heroLine {height: 2px;
+    width: 200px;
+    background: #000000;
+    text-shadow: 2px 2px #ffffff;
+  }
+
+  @media only screen and (max-width: 575px) {
+    #heroLine {
+      display: none;
+    }
+  }
+
+/* Hero Banner Text Responsiveness */
+  @media only screen and (max-width: 575px) {
+    #headingContainer {
+      text-align:center !important;
+      padding-left: 8% !important;
+      padding-right: 8% !important;
+      margin-left: auto;
+      margin-right: auto;
+    }}
+  
+    @media only screen and (min-width: 900px) {
+    #headingContainer {
+      margin-left: 12%;
+    }}
+
+    @media only screen and (max-width: 900px) {
+      #headingContainer {
+        padding-left: 5%;
+      }}
+
+/* Hero Banner Divider Line Responsiveness */
+  @media only screen and (max-width: 600px) {
+    .heroLine {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+/* Hero Banner Mockup Spacing */
+  #heroMockupContainer {
+    padding-left: 10%;
+  }
+
+  @media only screen and (max-width: 575px) {
+    #heroMockupContainer {
+      padding: 0px;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    #heroMockupContainer {
+      margin-left: 6%;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    #heroMockup {
+      margin-left: 6%;
+    }}
+
+/* Hero Banner Mockup Image */
+    #heroMockup {
+      width: 300px;
+      height: auto;
+      box-shadow: 10px 10px 20px rgba(0,0,0,0.25);
+      border-radius: 50px;
+    }
+
+    #heroMockup:hover {
+      transform:scale(1.02,1.02);
+      transition: 1s;
+    }
+
+/* Hero Banner Mockup Image Responsiveness */
+  @media only screen and (max-width: 575px) {
+    #heroMockup {
+      width: 60% !important;
+      height: auto !important;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+    }
+
+/* App Download Buttons */
+  #appstore {
+    width: 141px !important;
+    height: 42px !important;
+    margin-bottom: 3%;
+    border-radius: 6px;
+  }
+
+  #appstore:hover {
+    cursor: pointer;
+    opacity: .8;
+  }
+
+  #googleplay {
+    width: 140px !important;
+    height: 42px !important;
+    margin-bottom: 3%;
+    border-radius: 6px;
+  }
+
+  #googleplay:hover {
+    cursor: pointer;
+    opacity: .8;
+  }  
+
+/* First Body Section */
+  #bodyOne {
+    position: relative;
+    width:100vw;
+    height:500px;
+    padding-bottom: 5%;
+    height: 100%;
+    background: #f0f0f0;
+    box-shadow: 
+      inset 0px 11px 16px -10px rgba(0,0,0,0.3),
+      inset 0px -11px 16px -10px rgba(0,0,0,0.3); 
+  }
+
+/* Circular Cards */
+  .circularCard {
+    width: 150px;
+    height: 150px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.08);
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 35px solid white;
+  }
+
+  .card-deck {
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+  }
+
+  .card {
+    background: none !important;
+    border: 0px !important;
+  }
+
+  .card-footer {
+    background: none !important;
+    border: 0px !important;
+  }
+
+/* "How it Works" Leaf Container */
+  .leafContainer {
+    position: relative;
+    color: white;
+    padding-bottom: 50px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .leafContainer {
+      text-align: center;
+    }
+  }
+
+  .leafContainerReverse {
+    position: relative;
+    color: white;
+    padding-bottom: 50px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .leafContainerReverse {
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 800px) and (min-width: 575px) {
+    .leafContainerReverse {
+      margin-left: 50px;
+      padding-bottom: 0px !important;
+      margin-top: 75px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) and (min-width: 575px)  {
+    .leafContainerReverse{
+      padding-bottom: 100px;
+      }
+    }
+
+/* "How it Works" Leaf Image */
+  .leaf {opacity: .7;
+    left: -100px !important;
+    z-index: 99 !important;
+    width: 300px; 
+    height: auto;}
+
+  @media only screen and (max-width: 650px)  {
+    .leaf {
+      width: 250px !important;
+      height: auto;
+    }
+  }
+
+  @media only screen and (max-width: 800px) and (min-width: 575px){
+    .leaf {
+    opacity: .2 !important;}
+  }
+
+  @media only screen and (max-width: 800px) and (min-width: 575px){
+    .leafreverse {
+    opacity: .2 !important;}
+  }
+
+  .leafreverse {
+    opacity: .7;
+    right: -100px !important;
+    z-index: 99 !important;
+    width: 300px; 
+    height: auto;
+  }
+
+  @media only screen and (max-width: 650px)  {
+    .leafreverse {
+      width: 250px !important;
+      height: auto;
+    }
+  }
+
+/* Text Over Leaf Positioning and Responsiveness */
+  .subheadingResponsive {padding-bottom: 5%;}
+
+  @media only screen and (max-width: 560px) {
+    .subheadingResponsive {
+      text-align: center;
+    }
+  }
+
+  .textOverlay {
+    position: absolute !important;
+    bottom: 120px;
+  }
+
+  @media only screen and (max-width: 575px)  {
+    .textOverlay {
+      position: absolute !important;
+      top: 50%;
+      left: 50% !important;
+      bottom: auto !important;
+      transform: translate(-50%, -50%);
+      min-width: 400px;
+    }
+  }
+
+  .textOverlayReverse {
+    position: absolute !important;
+    bottom: 120px;
+  }
+
+  @media only screen and (max-width: 575px)  {
+    .textOverlayReverse {
+      position: absolute !important;
+      top: 50%;
+      left: 50% !important;
+      bottom: auto !important;
+      transform: translate(-50%, -50%);
+      min-width: 400px;
+      }
+    }
+
+  @media only screen and (max-width: 800px) and (min-width: 575px)  {
+    .textOverlayReverse {
+      bottom: 0px !important;
+      }
+    }
+
+/* How it Works Mockup Positioning and Decoration */
+  @media only screen and (min-width: 575px)   {
+    #paddedMockup {
+      padding-left: 10%;
+    }
+  }  
+
+  @media only screen and (min-width: 700px) {
+    #mockupPaddingReverse {
+      margin-left: 16.67%;
+      }
+    }
+      
+  @media only screen and (max-width: 600px) {
+    .mockup{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+      }
+    
+    .mockup{
+      box-shadow: 10px 10px 20px rgba(0,0,0,0.25);
+      border-radius: 35px;
+    }
+    
+    .mockup:hover {
+      transform:scale(1.02,1.02);
+      transition: 1s;
+    }
+
+/* Footer */
+  #footer {
+    background: #034001;
+    height: 100%;
+    text-align: center;
+  }
+    
+  #footer p2 {
+    color: white;
+    font-weight: 300;
+  }
+  
 /* Footer Social Media Icons */ 
-      #footer a {
-        font-size: 50px !important;
-      }
-        
-      #footer a:hover {
-        color: white;
-        text-decoration: none;
-      }
-        
-      .fa {
-        padding: 20px;
-        width: 100px;
-        font-size: 50px;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        }
-        
-      #firsticon {
-        padding-left: none !important;
-        padding-right: 20px;
-      }
-          
-      .fa:hover {
-        opacity: 0.8;
-        }
+  #footer a {
+    font-size: 50px !important;
+  }
+    
+  #footer a:hover {
+    color: white;
+    text-decoration: none;
+  }
+    
+  .fa {
+    padding: 20px;
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    }
+    
+  #firsticon {
+    padding-left: none !important;
+    padding-right: 20px;
+  }
+      
+  .fa:hover {
+    opacity: 0.8;
+    }
