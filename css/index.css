@@ -137,9 +137,11 @@
         min-height: 100px;
         }
 
-        #navBackground {
-          box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+      @media only screen and (max-width: 575px) {
+      #navBackground {
+          box-shadow: 0px 10px 20px rgba(0,0,0,0.05);
           }
+        }
         
       .nav-link p2:hover {
         color: #267302 !important;
@@ -347,8 +349,8 @@
         height: 100%;
         background: #f0f0f0;
         box-shadow: 
-          inset 0px 11px 16px -10px rgba(0,0,0,0.3),
-          inset 0px -11px 16px -10px rgba(0,0,0,0.3); 
+          inset 0px 11px 26px -10px rgba(0,0,0,0.3),
+          inset 0px -11px 26px -10px rgba(0,0,0,0.3); 
       }
 
 /* Circular Cards */
@@ -419,7 +421,7 @@
         }
 
 /* "How it Works" Leaf Image */
-      .leaf {opacity: .6;
+      .leaf {opacity: .8;
         left: -100px !important;
         z-index: 99 !important;
         width: 300px; 
@@ -433,7 +435,7 @@
       }
 
       .leafreverse {
-        opacity: .6;
+        opacity: .8;
         right: -100px !important;
         z-index: 99 !important;
         width: 300px; 
