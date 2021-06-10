@@ -74,16 +74,6 @@ p4 {
       .blankSpaceSmall {height: 40px;
         }
       }
-  
-      @media only screen and (min-width: 575px) {
-        .blankSpaceSmaller {height: 70px !important;
-          }
-        }
-      
-      @media only screen and (max-width: 575px) {
-          .blankSpaceSmaller {height: 40px;
-            }
-          }
 
   @media only screen and (max-width: 800px) {
       .blankSpaceHorizontal {width: 00px !important;
@@ -444,12 +434,12 @@ p4 {
     }
   }
 
-  @media only screen and (max-width: 800px) and (min-width: 575px){
+  @media only screen and (max-width: 1000px) and (min-width: 575px){
     .leaf {
     opacity: .2 !important;}
   }
 
-  @media only screen and (max-width: 800px) and (min-width: 575px){
+  @media only screen and (max-width: 1000px) and (min-width: 575px){
     .leafreverse {
     opacity: .2 !important;}
   }
