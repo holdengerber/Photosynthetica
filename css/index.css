@@ -99,11 +99,10 @@ p4 {
     padding-bottom: 5%;
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (min-width: 550px) {
     #herobg {
-      background: url('../images/planthero2.png');
-      background-size: auto 100%;
-      background-repeat: no-repeat;
+      background: url('../images/planthero2.png') !important;
+      background-size: auto 100% !important;
     }
   }
 
