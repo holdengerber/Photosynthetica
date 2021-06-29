@@ -99,7 +99,7 @@ p4 {
     padding-bottom: 5%;
   }
 
-  @media only screen and (min-width: 550px) {
+  @media only screen and (max-width: 600px) {
     #herobg {
       background: url('../images/planthero2.png') !important;
       background-size: auto 100% !important;
