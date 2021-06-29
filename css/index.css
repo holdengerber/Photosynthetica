@@ -85,7 +85,7 @@ p4 {
         }
       }
 
-/* Hero banner background image */
+/* Responsive Hero banner background image */
   #herobg {
     position: relative;
     width:100vw;
@@ -97,6 +97,12 @@ p4 {
     background-attachment: fixed;
     background-color: #ffffff;
     padding-bottom: 5%;
+  }
+
+  @media only screen and (min-width: 500px) {
+    #herobg {
+      background: url('../images/planthero2.png');
+    }
   }
 
 /* Smaller Logo on Mobile */
