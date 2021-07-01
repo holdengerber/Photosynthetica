@@ -84,6 +84,11 @@ p4 {
       .blankSpaceSmallResponsive {height: 20px;
         }
       }
+  
+    .blankSpaceSmall {
+      height: 50px !important;
+      }
+
 
 /* Responsive Hero banner background image */
   #herobg {
@@ -244,7 +249,7 @@ p4 {
 
   @media only screen and (max-width: 575px) {
     #heroLine {
-      display: none;
+      margin: auto;
     }
   }
 
