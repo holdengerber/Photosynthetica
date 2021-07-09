@@ -145,7 +145,7 @@ p4 {
   }
 
   #navBackground {
-    background: #ffffff;
+    background: rgba(255,255,255,0.95);
     min-height: 100px;
     }
 
